@@ -23,8 +23,8 @@ with tf.Session() as sess:
   for _ in range(4):
     sess.run(update)
     print(sess.run(state))
- print('Round2')
- for _ in range(3):
+  print('Round2')
+  for _ in range(3):
     sess.run(new_value)
     print(sess.run(state))
 
