@@ -20,8 +20,12 @@ with tf.Session() as sess:
   print(sess.run(state))
   print('Test')
   # Run the op that updates 'state' and print 'state'.
-  for _ in range(3):
+  for _ in range(4):
     sess.run(update)
+    print(sess.run(state))
+ print('Round2')
+ for _ in range(3):
+    sess.run(new_value)
     print(sess.run(state))
 
 # output:
