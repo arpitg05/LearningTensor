@@ -18,6 +18,7 @@ with tf.Session() as sess:
   sess.run(init_op)
   # Print the initial value of 'state'
   print(sess.run(state))
+  print('Test')
   # Run the op that updates 'state' and print 'state'.
   for _ in range(3):
     sess.run(update)
