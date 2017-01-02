@@ -1,6 +1,4 @@
 
-
-
 import tensorflow as tf
 
 # Create a Constant op that produces a 1x2 matrix.  The op is
